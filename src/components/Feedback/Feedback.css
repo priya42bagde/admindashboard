@@ -1,0 +1,18 @@
+.feedback{
+      margin-left: 10px;
+   background-color: lightpink;
+   height: 70%;
+   width: 50%;
+   -webkit-box-shadow: 5px 10px 9px 2px #000000; /*to make shadpw of box*/
+   box-shadow: 5px 10px 9px 2px #000000;
+}
+
+.addfeedbackForm{
+       
+   margin: 20px;
+   padding: 19px;
+}
+
+h4{
+    margin: 12px;
+}

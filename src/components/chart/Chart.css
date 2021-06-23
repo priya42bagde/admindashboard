@@ -1,0 +1,12 @@
+.chart {
+    background-color: lightpink;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 5px 10px 9px 2px #000000; /*to make shadpw of box*/
+    box-shadow: 5px 10px 9px 2px #000000;
+}
+
+.chartTitle{
+    margin-bottom: 20px;
+    color: darkorange;
+}

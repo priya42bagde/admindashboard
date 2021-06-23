@@ -1,0 +1,77 @@
+.WidgetLarge{
+    flex: 2; /*it provide 2 spaces out of three*/
+    -webkit-box-shadow: 5px 10px 9px 2px #000000; /*to make shadpw of box*/
+    box-shadow: 5px 10px 9px 2px #000000;
+    padding: 20px;
+    background-color : rgb(214, 212, 74);
+    
+
+}
+
+.WidgetLargeTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.WidgetLargeTable{
+  width: 100%;
+  border-spacing: 20px; /*make space between content inside table*/
+}
+
+.WidgetLargeTr{
+
+}
+
+.WidgetLargeUser{
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+}
+.WidgetLargeTh{
+   text-align: left;
+}
+
+.WidgetLargeImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.WidgetLargeName{
+
+}
+
+.WidgetLargeDate{
+  font-weight: 400;
+}
+
+.WidgetLargeAmount{
+    font-weight: 400;
+}
+
+.WidgetLargeStatus{
+
+}
+
+.WidgetLargeButton{
+   padding: 5px 7px;
+   border-radius: 10px;
+
+}
+
+.WidgetLargeButton.Approved{
+  background-color: lightgreen;
+  color: green;
+} 
+
+.WidgetLargeButton.Declined{
+    background-color: rgb(226, 132, 140);
+    color: red;
+} 
+
+.WidgetLargeButton.Pending{
+    background-color: lightyellow;
+    color: orange;
+}   

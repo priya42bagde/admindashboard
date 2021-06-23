@@ -1,0 +1,43 @@
+.sidebar{
+    flex: 1; /*it will be 1 unit*/
+    height: calc(100vh - 50px);
+    background-color: skyblue;
+    position: sticky;
+    top: 50px
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    color:black;
+}
+
+.sidebarMenu{
+    margin-bottom: 10px;
+}
+
+.sidebarTitle{
+    font-size: 13px;
+    color: rgb(224, 77, 18);
+}
+
+.sidebarList{
+    list-style: none; /* removes the star or numeric symbol*/
+    padding: 5px;
+}
+
+.sidebarListItem{
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sidebarIcon{
+    margin-right: 5px;
+    font-size: 20px !important; /* change te material UI icon*/
+}
+.sidebarListItem.active, .sidebarListItem:hover{
+    background-color: rgb(194, 210, 219);
+}
+

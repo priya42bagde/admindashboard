@@ -1,0 +1,62 @@
+.WidgetSmall{
+    background-color: rgb(151, 236, 117);
+   flex: 1; /*it provide 1 spaces out of three*/
+   -webkit-box-shadow: 5px 10px 9px 2px #000000; /*to make shadpw of box*/
+   box-shadow: 5px 10px 9px 2px #000000;
+   padding: 20px;
+   margin-right: 20px;
+}
+
+.WidgetSmallTitle{
+   font-size: 22px;
+   font-weight: 600;
+}
+
+.WidgetSmallList{
+  margin: 0;
+  padding: 0;
+  list-style: none; /*remove numbering or star symbol*/
+}
+
+.WidgetSmallListItem{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 20px 0;
+}
+
+.WidgetSmallImg{
+    width: 400;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1px 20px;
+}
+
+.WidgetSmallUser{
+     display: flex;
+     flex-direction: column;
+}
+
+.WidgetSmallUserName{
+    font-weight: 600;
+}
+
+.WidgetSmallUserTitle{
+    font-weight: 300;
+}
+
+.WidgetSmallButton{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.WidgetSmallIcon{
+    font-size: 16px;
+    margin-right: 5px;
+}

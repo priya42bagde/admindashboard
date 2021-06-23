@@ -1,0 +1,19 @@
+.pieChart
+    {
+        flex: 4;
+        margin-left: 50px;
+        background-color: lightgreen;
+        padding: 20px;
+    }
+
+.pieDescription{
+        margin: 20px;
+    }
+
+    .pieDesc{
+        
+        margin: 20px;
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
